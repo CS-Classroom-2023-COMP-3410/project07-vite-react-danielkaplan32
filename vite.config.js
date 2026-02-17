@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/project07-vite-react-danielkaplan32/',
   server: {
     port: 5173, // You can change this if needed
   },
