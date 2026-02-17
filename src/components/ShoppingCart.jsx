@@ -3,7 +3,6 @@ import Button from '../components/Button';
 function ShoppingCart( {cart, removeFromCart}) {
     // Sample product data
     
-    // const [cart, setCart] = useState([]);
 
     const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
 
